@@ -7,7 +7,8 @@ header .menu-header{
   width: 100%;
   height: 4rem;
   background-color: rgb(25, 4, 27);
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
   align-items: center;
   text-align: right;
   border-bottom: 1px solid white;
@@ -16,14 +17,15 @@ header .menu-header{
 }
 
 header .menu-header > a{
-  width: 54.5%;
+  width: 100%;
+  padding-left: 3.5rem;
   font-size: 2rem;
   color: white;
   text-decoration: none;
 }
 
 header .menu-portifolio{
-  width: 45.5%;
+  width: 100%;
   height: 100%;
   padding: 1.1rem 2rem 0 0 ;
   text-align: right;

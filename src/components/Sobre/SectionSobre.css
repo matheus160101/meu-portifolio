@@ -133,6 +133,7 @@ section .about p{
   }
 
   section .photograph{
+    width: 100%;
     padding-top: 3rem;
     text-align: center;  
   }
