@@ -1,0 +1,151 @@
+section .container{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+section .project{
+  width: 100%;
+  text-align: center;
+}
+
+
+section .project h1{
+  font-size: 2rem;
+  padding: 4rem 0;
+}
+
+
+section .projects{
+  display: flex;
+  width: 100%;
+  padding: 4rem;
+  justify-content: center;
+  gap: 4rem;
+}
+
+section .project-item1{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+section .project-text{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section .projects a{
+  text-decoration: none;
+}
+
+section .project-onebitx{
+  width: 34rem;
+  height: 20rem;
+  background-image: url("../../images/onebitx.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 37px 17px #000000;
+  cursor: pointer;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+section .project-onebitx:hover{
+  transition: 0.4s;
+  transform: scale(1.05, 1.05);
+
+}
+
+section .project-onebitx h1{
+  font-size: 1.5rem;
+  color: rgb(241, 241, 241);
+}
+
+section .project-onebitx img{
+  width: 2rem;
+  height: 2rem;
+  opacity: 1;
+}
+
+section .project-onebitx-button{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem 0;
+}
+
+
+section .project-onebitx-button button{
+  width: 10rem;
+  height: 3rem;
+  background-color: rgba(71, 16, 77, 0.6);
+  color: white;
+  border: 1px solid white;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+section .project-onebitx-button button:hover{
+  cursor: pointer;
+  transform: scale(0.9, 0.9);
+  background-color: rgba(97, 20, 104);
+  color: white;
+  border: 1px solid white;
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+
+@media (max-width: 1120px){
+  section .projects{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section .project-item1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  section .project-text{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 653px){
+  section .project-onebitx-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 0;
+  }
+
+  section .project-onebitx{
+    width: 27rem;
+    height: 14rem;
+    background-image: url("../../images/onebitx.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 37px 17px #000000;
+    cursor: pointer;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+}

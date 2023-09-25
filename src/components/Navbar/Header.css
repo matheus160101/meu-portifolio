@@ -1,0 +1,91 @@
+header .container{
+  width: 100%;
+  
+}
+
+header .menu-header{
+  width: 100%;
+  height: 4rem;
+  background-color: rgb(25, 4, 27);
+  display: flex;
+  align-items: center;
+  text-align: right;
+  border-bottom: 1px solid white;
+  position: fixed;
+  z-index: 99;
+}
+
+header .menu-header > a{
+  width: 54.5%;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+header .menu-portifolio{
+  width: 45.5%;
+  height: 100%;
+  padding: 1.1rem 2rem 0 0 ;
+  text-align: right;
+  color: white;
+
+}
+
+header img{
+  width: 1.7rem;
+  height: 1.7rem;
+  cursor: pointer;
+}
+
+header img:hover{
+  transform: scale(1.2, 1.2);
+  transition: 0.3s;
+}
+
+
+
+header .menu-list{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.65);
+  text-align: center;
+  position: fixed;
+  margin-top: 4rem;
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  z-index: -11;
+}
+
+header .menu-list.open {
+  opacity: 1;
+  z-index: 99; /* Mude o z-index para que o menu fique na frente */
+}
+
+header .menu-list h1{
+  padding: 3rem 0 3rem 0;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+header .menu-list ul{
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header .menu-list li {
+  list-style: none;
+  padding: .75rem 0;
+  
+}
+
+
+header .menu-list li a{
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
