@@ -15,10 +15,10 @@ export default function SectionProjeto(){
     <>
       <section id='projetos'>
         <div className="container">
-          <div className="project" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <div className="project" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <h1>Projetos</h1>
             <div className="projects" >
-              <div className="project-itens" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <div className="project-itens" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div className='project-item1'>
                   <a href="https://onebit-ne6a0dxuo-matheus160101.vercel.app/" target='_blank'>
                     <div className="project-onebitx">
@@ -41,7 +41,7 @@ export default function SectionProjeto(){
                   </div>
                 </div>
               </div>
-              <div className="project-itens" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <div className="project-itens" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div className='project-item2'>
                   <a href="https://calculadora-ruby-five.vercel.app/" target='_blank'>
                     <div className="project-onebitx1">
@@ -63,7 +63,7 @@ export default function SectionProjeto(){
                 </div>
               </div>
 
-              <div className="project-itens" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <div className="project-itens" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div className='project-item3'>
                   <a href="https://explore-lab-01-delta.vercel.app/" target='_blank'>
                     <div className="project-onebitx2">
