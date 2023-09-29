@@ -7,12 +7,12 @@ export default function SectionSobre(){
     <>
       <section id='sobre'>
         <div className="container">
-          <div className="content">
+          <div className="content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div className="content-about">
               <h1>Matheus H. Silveira</h1>
               <p>Desenvolvedor Full-Stack</p>
               <a href={MeuCurriculo} download={MeuCurriculo}><button >Download CV</button></a>
-              <button>Contato</button>
+              <a href="#contato"><button>Contato</button></a>
             </div>
 
             <div className="photograph">
@@ -20,7 +20,7 @@ export default function SectionSobre(){
             </div>
           </div>
 
-          <div className="about">
+          <div className="about" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div className="about-text">
               <h1>Sobre</h1>
               <p>Prazer me chamo Matheus tenho 22 anos, faço Engenharia de Software, atualmente estou no 2° Periodo da Faculdade,

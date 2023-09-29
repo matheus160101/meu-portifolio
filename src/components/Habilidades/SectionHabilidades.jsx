@@ -17,7 +17,7 @@ export default function SectionHabilidades(){
         <div className="container" >
           <div className="skills" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <h1>Habilidades</h1>
-            <div className="skills-application">
+            <div className="skills-application" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
               <div className='skills-box'>
                 <p>HTML</p>
                 <img src={iconHtml} alt="" />

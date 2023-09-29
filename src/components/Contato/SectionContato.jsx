@@ -9,10 +9,10 @@ import iconGitHub from '../../images/icons/icon-github.svg'
 export default function SectionContato(){
   return(
     <>
-      <section id="contato">
-        <div className="container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <section id="contato" >
+        <div className="container" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <h1>Contato</h1>
-          <div className="contact">
+          <div className="contact" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <a href="mailto:matheus_henriquecwb@hotmail.com" target='_blank'>
               <div className="contact-box">
                 <div className="contact-img"><img src={iconEmail} alt="" /></div>
